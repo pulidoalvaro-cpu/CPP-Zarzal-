@@ -173,8 +173,8 @@ int main(){
     
     std::cout<<" C3) Firma: bool contieneDigito(int n, int d);"<<"\n";
     std::cout<<" Devuelve true si n (no negativo) contiene el dígito d (0–9). Usa operadores aritméticos."<<"\n";
-    std::cout<<" ¿n tine el digito de d? (3, 3): "<<(contienedigito(7, 7) ? "true" : "false")<<"\n";
-    std::cout<<" ¿n tine el digito de d? (100, 8): "<<(contienedigito(100, 8) ? "true" : "false")<<"\n\n";
+    std::cout<<" ¿n tiene el digito de d?(3, 3): "<<(contienedigito(7, 7) ? "true" : "false")<<"\n";
+    std::cout<<" ¿n tiene el digito de d?(100, 8): "<<(contienedigito(100, 8) ? "true" : "false")<<"\n\n";
    
     std::cout<<" C4) Firma: void tablaMultiplicar(int n);"<<"\n";
     std::cout<<" Imprime la tabla de n del 1 al 10 con el formato exacto: n x i = resultado (un renglón por i).."<<"\n\n";
@@ -184,3 +184,4 @@ int main(){
     return 0;
 
 }
+
