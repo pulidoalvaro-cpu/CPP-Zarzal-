@@ -74,7 +74,7 @@ int main(){
     std::cout<<"( )"<<" C) int x( ); x = '10';"<<"\n";
     std::cout<<"( )"<<" D) int x { ¨10¨ };"<<"\n\n";
 
-    std::cout<<" 2) ¿Qué imprime? std::cout << 7/2 <<" \" \" ""<< 7/2.0;"<<"\n\n";
+    std::cout<<" 2) ¿Qué imprime? std::cout << 7/2 <<"<<" \" \" << 7/2.0;"<<"\n\n";
     std::cout<<"( )"<<" A) 3 3"<<"\n";
     std::cout<<"(X)"<<" B) 3 3.5"<<"\n";
     std::cout<<"( )"<<" C) 3.5 3.5"<<"\n";
@@ -184,6 +184,7 @@ int main(){
     return 0;
 
 }
+
 
 
 
