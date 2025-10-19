@@ -34,7 +34,7 @@ int max3(int a, int b, int c){
 }
 
 //C2) Firma: int sumaRango(int a, int b); no se necita controlar a "a"
-int rango(int a, int b){
+int sumaRango(int a, int b){
     int suma=0;
     for (int i=a; i<=b; i++) {
         suma+= i;  
@@ -43,7 +43,7 @@ int rango(int a, int b){
 }
 
 //C3) Firma: bool contieneDigito(int n, int d);
-bool contienedigito(int n, int d){
+bool contieneDigito(int n, int d){
     if (n == 0 && d == 0) return true;
     while (n>0){
         int ultimonumero= n % 10;
@@ -169,12 +169,12 @@ int main(){
     
     std::cout<<" C2) Firma: int sumaRango(int a, int b);"<<"\n";
     std::cout<<" Devuelve la suma de todos los enteros en [a, b] (se asume a <= b) usando un bucle."<<"\n";
-    std::cout <<" sumarango(1, 10) = "<<rango(1, 10)<<"\n\n"; 
+    std::cout <<" sumarango(1, 10) = "<<sumaRango(1, 10)<<"\n\n"; 
     
     std::cout<<" C3) Firma: bool contieneDigito(int n, int d);"<<"\n";
     std::cout<<" Devuelve true si n (no negativo) contiene el dígito d (0–9). Usa operadores aritméticos."<<"\n";
-    std::cout<<" ¿n tiene el digito de d?(3, 3): "<<(contienedigito(7, 7) ? "true" : "false")<<"\n";
-    std::cout<<" ¿n tiene el digito de d?(100, 8): "<<(contienedigito(100, 8) ? "true" : "false")<<"\n\n";
+    std::cout<<" ¿n tiene el digito de d?(3, 3): "<<(contieneDigito(7, 7) ? "true" : "false")<<"\n";
+    std::cout<<" ¿n tiene el digito de d?(100, 8): "<<(contieneDigito(100, 8) ? "true" : "false")<<"\n\n";
    
     std::cout<<" C4) Firma: void tablaMultiplicar(int n);"<<"\n";
     std::cout<<" Imprime la tabla de n del 1 al 10 con el formato exacto: n x i = resultado (un renglón por i).."<<"\n\n";
@@ -184,6 +184,7 @@ int main(){
     return 0;
 
 }
+
 
 
 
