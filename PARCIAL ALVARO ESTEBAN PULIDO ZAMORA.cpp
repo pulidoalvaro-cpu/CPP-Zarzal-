@@ -72,7 +72,7 @@ int main(){
     std::cout<<"( )"<<" A) int x; x == 10;"<<"\n";
     std::cout<<"(X)"<<" B) int x = 10"<<"\n";
     std::cout<<"( )"<<" C) int x( ); x = '10';"<<"\n";
-    std::cout<<"( )"<<" D) int x { ¨10¨ };"<<"\n\n";
+    std::cout<<"( )"<<" D) int x {""\"10\"};"<<"\n\n";
 
     std::cout<<" 2) ¿Qué imprime? std::cout << 7/2 <<"<<" \" \" << 7/2.0;"<<"\n\n";
     std::cout<<"( )"<<" A) 3 3"<<"\n";
@@ -108,7 +108,7 @@ int main(){
     std::cout<<"(X)"<<" A) 11"<<"\n"; // primero son las operaciones de orden superior, luego suma y resta.
     std::cout<<"( )"<<" B) 21"<<"\n";
     std::cout<<"( )"<<" C) 10"<<"\n";    
-    std::cout<<"( )"<<" D) 7;"<<"\n\n";
+    std::cout<<"( )"<<" D) 7"<<"\n\n";
     
     std::cout<<" 8) ¿Cuál firma pasa un entero por referencia?"<<"\n\n";
     std::cout<<"( )"<<" A) void f(int n&);"<<"\n";
@@ -184,6 +184,7 @@ int main(){
     return 0;
 
 }
+
 
 
 
