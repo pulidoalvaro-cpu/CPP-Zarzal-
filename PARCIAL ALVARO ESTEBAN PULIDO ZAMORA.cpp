@@ -52,7 +52,6 @@ bool contienedigito(int n, int d){
         }
         n = n / 10;
     }
-
     return false;
 }
 
@@ -183,4 +182,5 @@ int main(){
 
      
     return 0;
+
 }
