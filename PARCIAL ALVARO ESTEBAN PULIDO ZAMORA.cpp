@@ -80,7 +80,7 @@ int main(){
     std::cout<<"( )"<<" C) 3.5 3.5"<<"\n";
     std::cout<<"( )"<<" D) 3 3.0"<<"\n\n";
     
-    std::cout<<" 3) Con bool a=true, b=false; ¿Qué imprime? std::cout << (a&&b) << " " << (a||b) << " " << (!b);"<<"\n\n";
+    std::cout<<" 3) Con bool a=true, b=false; ¿Qué imprime? std::cout << (a&&b) << \" \" << (a||b) << \" \" << (!b);"<<"\n\n";
     std::cout<<"( )"<<" A) true true false"<<"\n";
     std::cout<<"(X)"<<" B) 0 1 1"<<"\n";
     std::cout<<"( )"<<" C) 1 1 0 "<<"\n";
@@ -184,6 +184,7 @@ int main(){
     return 0;
 
 }
+
 
 
 
