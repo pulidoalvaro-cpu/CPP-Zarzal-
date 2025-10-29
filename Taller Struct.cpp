@@ -164,7 +164,7 @@ int main(){
     std::cout<<"=== Ejercicio 1 y 2: Producto con constructores,valores por defecto y validación===\n";
     Producto p1("Tomate");                //solo nombre
     Producto p2("Atun", 8000.0);          //nombre y precio
-    Producto p3("Arroz", 2500.0, 0);      //nombre, precio y inventario
+    Producto p3("Arroz", 2500.0, 20);      //nombre, precio y inventario
 
     p1.imprimir();
     p2.imprimir();
